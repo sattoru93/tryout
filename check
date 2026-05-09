@@ -1,0 +1,33 @@
+Ahora haga eso mismo en la LAPTOP (la original donde Aura sí corría).
+
+En la laptop:
+
+Vaya a la raíz del proyecto:
+
+cd C:\Users\ASUS\Downloads\AI_Trader_Upgraded\GlossyRustyBuckets
+
+Y ahí:
+
+Get-ChildItem -Recurse | findstr core_engine
+
+o:
+
+Get-ChildItem -Recurse -File *core_engine*
+
+Si lo encuentra verá algo tipo:
+
+core_engine.js
+
+o una ruta completa.
+
+Y ahí hacemos:
+
+git add ...
+git commit ...
+git push
+
+Luego en la desktop:
+
+git pull
+
+y Aura debería levantar.
