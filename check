@@ -40,3 +40,8 @@ No matches for core_engine in the repo:
                                                                                                    
   If you want, I can also search for related names like coreEngine, engine, or the require("../    
   core_engine") import path specifically.   
+
+rg -n "core_engine|coreEngine|require\(|from " .
+Get-Content .\signal_pipeline.js -First 30
+git status --short
+git ls-files | findstr signal_pipeline
