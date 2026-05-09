@@ -31,3 +31,12 @@ Luego en la desktop:
 git pull
 
 y Aura debería levantar.
+
+
+No matches for core_engine in the repo:
+                                                                                                   
+  - No files with core_engine in the name                                                          
+  - No text matches for core_engine in tracked or untracked files that rg could see                
+                                                                                                   
+  If you want, I can also search for related names like coreEngine, engine, or the require("../    
+  core_engine") import path specifically.   
